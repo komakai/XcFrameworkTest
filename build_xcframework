@@ -1,0 +1,8 @@
+#!/bin/zsh
+
+rm -rf ./output
+
+cd XcFrameTest && xcodebuild archive -scheme XcFrameTest -archivePath ../output/XcFrameTest-iphonesimulator.xcarchive -sdk iphonesimulator SKIP_INSTALL=NO && cd ..
+cd XcFrameTest && xcodebuild archive -scheme XcFrameTest -archivePath ../output/XcFrameTest-iphoneos.xcarchive -sdk iphoneos SKIP_INSTALL=NO && cd ..
+
+xcodebuild -create-xcframework -framework ./output/XcFrameTest-iphonesimulator.xcarchive/Products/Library/Frameworks/XcFrameTest.framework -framework ./output/XcFrameTest-iphoneos.xcarchive/Products/Library/Frameworks/XcFrameTest.framework -output ./output/XcFrameTest.xcframework

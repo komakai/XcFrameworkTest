@@ -1,0 +1,5 @@
+framework module XcFrameTest {
+  umbrella header "XcFrameTest.h"
+  export *
+  module * {export *}
+}
