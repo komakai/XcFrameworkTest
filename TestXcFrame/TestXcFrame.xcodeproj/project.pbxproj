@@ -40,7 +40,7 @@
 		5B5E01BC25A99AD9003F4791 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B5E01BF25A99AD9003F4791 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B5E01C125A99AD9003F4791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5B5E01C925A99AF1003F4791 /* XcFrameTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XcFrameTest.xcframework; path = ../../Desktop/XcFrameTest.xcframework; sourceTree = "<group>"; };
+		5B5E01C925A99AF1003F4791 /* XcFrameTest.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = XcFrameTest.xcframework; path = ../output/XcFrameTest.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
