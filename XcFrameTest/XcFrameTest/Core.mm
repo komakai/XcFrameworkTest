@@ -11,7 +11,7 @@
 
 @implementation Core
 
-+(ObjSize*)double:(ObjSize*)size {
++(ObjSize*)quadrupleSize:(ObjSize*)size {
     ObjSize* ret = [ObjSize new];
     ret.h = size.h * 2;
     ret.w = size.w * 2;

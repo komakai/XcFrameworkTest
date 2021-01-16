@@ -9,6 +9,6 @@
 
 @interface Core : NSObject
 
-+(ObjSize*)double:(ObjSize*)size;
++(ObjSize*)quadrupleSize:(ObjSize*)size;
 
 @end

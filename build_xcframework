@@ -6,3 +6,4 @@ cd XcFrameTest && xcodebuild archive -scheme XcFrameTest -archivePath ../output/
 cd XcFrameTest && xcodebuild archive -scheme XcFrameTest -archivePath ../output/XcFrameTest-iphoneos.xcarchive -sdk iphoneos SKIP_INSTALL=NO && cd ..
 
 xcodebuild -create-xcframework -framework ./output/XcFrameTest-iphonesimulator.xcarchive/Products/Library/Frameworks/XcFrameTest.framework -framework ./output/XcFrameTest-iphoneos.xcarchive/Products/Library/Frameworks/XcFrameTest.framework -output ./output/XcFrameTest.xcframework
+xcodebuild -scheme TestXcFrame -project TestXcFrame/TestXcFrame.xcodeproj build

@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         let size = Size()
         size.h = 4
         size.w = 2
-        print(Core.quadruple(size).area())
+        print(Core.quadrupleSize(size).area())
         // Do any additional setup after loading the view.
     }
 

@@ -5,14 +5,16 @@
 //  Created by Giles Payne on 2021/01/09.
 //
 
-public class MyClass {
-    func compareSizes(size1: Size, size2: Size) -> Bool {
-        return size1.area() < size2.area()
-    }
-}
+import Foundation
 
-public extension Core {
-    class func quadruple(_ size: Size) -> Size {
-        return Core.double(Core.double(size))
+public class MyClass : NSObject {
+    func useFoundation() -> Int {
+        // use an NSMutableArray to force Foundation to be included
+        let mutArray = NSMutableArray()
+        return mutArray.count
+    }
+
+    public func quadArea(_ size: Size) -> Int32 {
+        Core.quadrupleSize(size).area()
     }
 }
