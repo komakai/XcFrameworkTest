@@ -13,12 +13,5 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let size = Size()
-        size.h = 4
-        size.w = 2
-        print(Core.quadrupleSize(size).area())
-        // Do any additional setup after loading the view.
     }
-
-
 }
-

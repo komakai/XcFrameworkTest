@@ -8,13 +8,14 @@
 import Foundation
 
 public class MyClass : NSObject {
+    // use an NSMutableArray to force Foundation to be included
     func useFoundation() -> Int {
-        // use an NSMutableArray to force Foundation to be included
         let mutArray = NSMutableArray()
         return mutArray.count
     }
 
-    public func quadArea(_ size: Size) -> Int32 {
-        Core.quadrupleSize(size).area()
+    // use the class with its NS_SWIFT_NAME
+    public func area(_ size: Size) -> Int32 {
+        return size.w * size.h
     }
 }

@@ -15,9 +15,7 @@ NS_SWIFT_NAME(Size)
 @property int w;
 @property int h;
 
--(instancetype)initWithWidth:(int)width height:(int)height;
-
--(int)area;
+-(instancetype)init;
 
 @end
 

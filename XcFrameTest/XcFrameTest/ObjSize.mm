@@ -10,17 +10,13 @@
 
 @implementation ObjSize
 
-- (instancetype)initWithWidth:(int)width height:(int)height {
+- (instancetype)init {
     self = [super init];
     if (self) {
-        self.w = width;
-        self.h = height;
+        self.w = 0;
+        self.h = 0;
     }
     return self;
-}
-
--(int)area {
-    return self.w * self.h;
 }
 
 @end
